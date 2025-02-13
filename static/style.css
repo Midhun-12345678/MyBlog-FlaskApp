@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(135deg, #f0f2f5, #d6d9dd);
+    color: #2c2e33;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c2e33;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #4f73c3;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #2c5282;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(135deg, #3b3f50, #2c2e33);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #d1d5db;
+}
+.navbar-nav .nav-link.active {
+    color: #4f73c3 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(44, 46, 51, 0.7), rgba(44, 46, 51, 0.7)), url("../static/hero-bg.jpg") center/cover no-repeat;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+.hero h1 { color: #e0e0e0; font-size: 3rem; margin-bottom: 20px; }
+.hero p { color: #d3d3d3; font-size: 1.2rem; }
+.hero .btn-primary { background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%); color: #fff; border: none; transition: transform 0.3s; padding: 10px 20px; font-size: 1.1rem; border-radius: 25px; } .hero .btn-primary:hover { transform: scale(1.05); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); }
+.hero .btn-primary:hover {
+    background: linear-gradient(135deg, #2c5282, #243b6b);
+}
+
+/* Main Content */
+.container {
+    padding: 30px 15px;
+}
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c2e33;
+}
+
+/* Post List */
+.post-list li {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.post-list li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.post-list a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #2c5282;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #4f73c3, #2c5282);
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, #2c5282, #243b6b);
+}
+.btn-secondary {
+    background: linear-gradient(135deg, #6c757d, #495057);
+    border: none;
+    color: #fff;
+}
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #495057, #343a40);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #2c2e33, #1f2124);
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+footer a {
+    color: #4f73c3;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #2c5282;
+}
